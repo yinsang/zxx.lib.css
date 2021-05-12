@@ -1,0 +1,175 @@
+/* reset */
+html body {
+    line-height: 1.4;
+    color: #333;
+    font-family: arial;
+    font-size: 12px;
+}
+
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+    margin: 0;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 1em;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/*image with no-border*/
+img {
+    border: 0;
+}
+/* ---------------------single CSS----------------------- */
+/* display */
+.dn {
+    display: none;
+}
+.di {
+    display: inline;
+}
+.db {
+    display: block;
+}
+.dib {
+    display: inline-block;
+}
+.df {
+    display: flex;
+}
+.dif {
+    display: inline-flex;
+}
+/* flex */
+.f1 {
+    flex: 1;
+}
+.aic {
+    align-items: center;
+}
+.jcc {
+    justify-content: center;
+}
+
+.fdr {
+    flex-direction: row;
+}
+.fdc {
+    flex-direction: column;
+}
+.wh {
+    color: white;
+}
+
+.w100p {
+    width: 100%;
+}
+/* font-size */
+.f0 {
+    font-size: 0;
+}
+.fz8 {
+    font-size: 8px;
+    line-height: 1.2;
+    text-size-adjust: none;
+}
+
+.fz10 {
+    font-size: 10px;
+    line-height: 1.2;
+    text-size-adjust: none;
+}
+.f12 {
+    font-size: 12px;
+}
+.f13 {
+    font-size: 13px;
+}
+.f14 {
+    font-size: 14px;
+}
+.f16 {
+    font-size: 16px;
+}
+.f18 {
+    font-size: 18px;
+}
+.f20 {
+    font-size: 20px;
+}
+.f24 {
+    font-size: 24px;
+}
+.f28 {
+    font-size: 28px;
+}
+/* font-style */
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+/* text-align */
+.tc {
+    text-align: center;
+}
+.tr {
+    text-align: right;
+}
+.tl {
+    text-align: left;
+}
+/* position */
+.rel {
+    position: relative;
+}
+.abs {
+    position: absolute;
+}
+/* float */
+.l {
+    float: left;
+}
+.r {
+    float: right;
+}
+/* overflow */
+.ovh {
+    overflow: hidden;
+}
+.ova {
+    overflow: auto;
+}
+/* 块状元素水平居中 */
+.auto {
+    margin: 0 auto;
+}

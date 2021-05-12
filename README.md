@@ -1,34 +1,17 @@
-zxx.lib.css - a quick CSS layout library
-===============
-If the UI of your page is simple, meanwhile, you want to construct web pages quickly, this CSS library is very useful for you!
-Introduction
----------------
-As you known, some CSS styles are used very frequently. For example, <code>display:none</code> - the most commonly used method for hiding elements, <code>visibility:hidden</code> - a very useful method for hiding elements, and so on. 
 
-Actually, <code>zxx.lib.css</code> is a collection of these styles. It includes <code>display</code>, <code>margin</code>, <code>padding</code>, <code>color</code>(web safe color), <code>font</code> refer, <code>vertical-align</code>, <code>float</code>, ..., and many other common styles. In addition to these styles, some group styles that I think useful are also in.
+用于减小 CSS 体积，提升 Web 页面性能
+- **不需要使用**其他reset.css代码
+- 添加最常用的 CSS 小 className，保留最常用的属性。
+- 建议放在head里加载
+# Use
+使用时需要注意css className覆盖的情况，建议放在head最后
+```html
+<head>
+<link href="others.bundles.css" rel="stylesheet" />
+<link href="zxx.lib.css" rel="stylesheet" />
 
-All the names of the CSS in <code>zxx.lib.css</code> are short names. For example, <code>.dn</code> instead of <code>display:none</code>, <code>.db</code> instead of <code>display:block</code>, ...
+</head>
+<div class="dib">title</div>
+```
 
-Note
--------------------
-I recommend that <code>zxx.lib.css</code> should put behind after other CSS file! As shown below:
-<pre>&lt;link href="a.css" rel="stylesheet" /&gt;
-&lt;link href="b.css" rel="stylesheet" /&gt;
-&lt;link href="zxx.lib.css" rel="stylesheet" /&gt;</pre>
-
-License
---------------------------
-MIT
-
-Donate
-------------------
-<table>
-	<tr>
-		<th align="center">支付宝</th>
-		<th align="center">微&nbsp;&nbsp;信</th>
-	</tr>
-	<tr>
-		<td align="center"><img src="http://www.zhangxinxu.com/alipay.png" width="145" height="145"></td>
-		<td align="center"><img src="http://www.zhangxinxu.com/wxpay.png" width="145" height="145"></td>
-	</tr>
-</table>
+fork from [zxx.lib.css](https://github.com/zhangxinxu/zxx.lib.css)
